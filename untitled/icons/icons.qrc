@@ -1,0 +1,20 @@
+<RCC>
+    <qresource prefix="/">
+        <file>cut.png</file>
+        <file>duose-wenbentihuan.png</file>
+        <file>file-add.png</file>
+        <file>folder-open.png</file>
+        <file>font.png</file>
+        <file>list_number.png</file>
+        <file>paste.png</file>
+        <file>redo.png</file>
+        <file>save.png</file>
+        <file>search.png</file>
+        <file>wrap.png</file>
+        <file>copy.png</file>
+        <file>undo.png</file>
+        <file>build.png</file>
+        <file>dibugongjulan.png</file>
+        <file>lingcunwei.png</file>
+    </qresource>
+</RCC>
