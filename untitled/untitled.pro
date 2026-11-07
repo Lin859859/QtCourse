@@ -29,6 +29,7 @@ DISTFILES += \
     icons/folder-open.png \
     icons/font.png \
     icons/list_number.png \
+    icons/notebook.png \
     icons/paste.png \
     icons/redo.png \
     icons/save.png \

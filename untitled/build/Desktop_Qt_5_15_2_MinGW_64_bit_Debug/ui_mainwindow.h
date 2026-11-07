@@ -151,12 +151,14 @@ public:
         actionEditBg->setMenuRole(QAction::NoRole);
         actionToolBar = new QAction(MainWindow);
         actionToolBar->setObjectName(QString::fromUtf8("actionToolBar"));
+        actionToolBar->setCheckable(true);
         QIcon icon12;
         icon12.addFile(QString::fromUtf8(":/build.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionToolBar->setIcon(icon12);
         actionToolBar->setMenuRole(QAction::NoRole);
         actionStatusBar = new QAction(MainWindow);
         actionStatusBar->setObjectName(QString::fromUtf8("actionStatusBar"));
+        actionStatusBar->setCheckable(true);
         QIcon icon13;
         icon13.addFile(QString::fromUtf8(":/dibugongjulan.png"), QSize(), QIcon::Normal, QIcon::Off);
         actionStatusBar->setIcon(icon13);

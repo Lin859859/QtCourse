@@ -2,10 +2,22 @@
 #define MAINWINDOW_H
 
 #include <QMainWindow>
-
+#include <QPlainTextEdit>
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
 QT_END_NAMESPACE
+
+// 行号区域类
+class LineNumberArea : public QWidget
+{
+    Q_OBJECT
+public:
+    explicit LineNumberArea(QPlainTextEdit *edit, QWidget *parent = nullptr);
+protected:
+    void paintEvent(QPaintEvent *event) override;
+private:
+    QPlainTextEdit *m_edit;
+};
 
 class MainWindow : public QMainWindow
 {
@@ -15,11 +27,24 @@ public:
     ~MainWindow();
 
 private slots:
+    // 查找、替换
+    void on_action_F_triggered();
+    void on_action_R_triggered();
+    // 自动换行、行号
+    void on_actionWrap_triggered();
+    void on_actionLineNum_triggered();
+    // 工具栏、状态栏
+    void on_actionToolBar_triggered();
+    void on_actionStatusBar_triggered();
+
+    // 文件
     void on_actionNew_triggered();
     void on_actionOpen_triggered();
     void on_actionSave_triggered();
     void on_actionSaveAs_triggered();
+    void on_action_X_triggered();
 
+    // 编辑
     void on_actionUndo_triggered();
     void on_actionRedo_triggered();
     void on_actionCut_triggered();
@@ -27,24 +52,25 @@ private slots:
     void on_actionPaste_triggered();
     void on_actionSelectAll_triggered();
 
-    void on_actionWrap_triggered();
+    // 格式
     void on_actionFont_triggered();
     void on_actionFontColor_triggered();
     void on_actionBgColor_triggered();
     void on_actionEditBg_triggered();
 
+    // 关于
+    void on_actionAbout_triggered();
 
-    void updateStatusInfo();
-    void onTextChanged();
-    void updateEditActionState();
+    // 行号更新槽
+    void updateLineNumberWidth();
+    void updateLineNumbers();
 
-protected:
-    void closeEvent(QCloseEvent *event) override;
+
 
 private:
     Ui::MainWindow *ui;
-    QString m_filePath;
-    bool m_isModified;
-    void updateWindowTitle();
+    LineNumberArea *lineNumberWidget;
+    QString currentFilePath; // 当前打开文件路径
 };
+
 #endif // MAINWINDOW_H

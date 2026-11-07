@@ -340,6 +340,9 @@
    </property>
   </action>
   <action name="actionToolBar">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
    <property name="icon">
     <iconset resource="icons/icons.qrc">
      <normaloff>:/build.png</normaloff>:/build.png</iconset>
@@ -352,6 +355,9 @@
    </property>
   </action>
   <action name="actionStatusBar">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
    <property name="icon">
     <iconset resource="icons/icons.qrc">
      <normaloff>:/dibugongjulan.png</normaloff>:/dibugongjulan.png</iconset>

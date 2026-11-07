@@ -65,6 +65,7 @@ DIST          = icons/copy.png \
 		icons/folder-open.png \
 		icons/font.png \
 		icons/list_number.png \
+		icons/notebook.png \
 		icons/paste.png \
 		icons/redo.png \
 		icons/save.png \
@@ -250,6 +251,21 @@ debug/moc_mainwindow.cpp: ../../mainwindow.h \
 		../../../../5.15.2/mingw81_64/include/QtGui/qtouchdevice.h \
 		../../../../5.15.2/mingw81_64/include/QtWidgets/qtabwidget.h \
 		../../../../5.15.2/mingw81_64/include/QtGui/qicon.h \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/QPlainTextEdit \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/qplaintextedit.h \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/qtextedit.h \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/qabstractscrollarea.h \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/qframe.h \
+		../../../../5.15.2/mingw81_64/include/QtGui/qtextdocument.h \
+		../../../../5.15.2/mingw81_64/include/QtGui/qtextoption.h \
+		../../../../5.15.2/mingw81_64/include/QtGui/qtextcursor.h \
+		../../../../5.15.2/mingw81_64/include/QtGui/qtextformat.h \
+		../../../../5.15.2/mingw81_64/include/QtGui/qpen.h \
+		../../../../5.15.2/mingw81_64/include/QtGui/qabstracttextdocumentlayout.h \
+		../../../../5.15.2/mingw81_64/include/QtGui/qtextlayout.h \
+		../../../../5.15.2/mingw81_64/include/QtGui/qglyphrun.h \
+		../../../../5.15.2/mingw81_64/include/QtGui/qrawfont.h \
+		../../../../5.15.2/mingw81_64/include/QtGui/qfontdatabase.h \
 		debug/moc_predefs.h \
 		../../../../5.15.2/mingw81_64/bin/moc.exe
 	E:\QT\5.15.2\mingw81_64\bin\moc.exe $(DEFINES) --include E:/QT/test2/untitled/build/Desktop_Qt_5_15_2_MinGW_64_bit_Debug/debug/moc_predefs.h -IE:/QT/5.15.2/mingw81_64/mkspecs/win32-g++ -IE:/QT/test2/untitled -IE:/QT/5.15.2/mingw81_64/include -IE:/QT/5.15.2/mingw81_64/include/QtWidgets -IE:/QT/5.15.2/mingw81_64/include/QtGui -IE:/QT/5.15.2/mingw81_64/include/QtANGLE -IE:/QT/5.15.2/mingw81_64/include/QtCore -I. -IE:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++ -IE:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/x86_64-w64-mingw32 -IE:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include/c++/backward -IE:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include -IE:/QT/Tools/mingw810_64/lib/gcc/x86_64-w64-mingw32/8.1.0/include-fixed -IE:/QT/Tools/mingw810_64/x86_64-w64-mingw32/include ..\..\mainwindow.h -o debug\moc_mainwindow.cpp
@@ -384,6 +400,21 @@ debug/main.o: ../../main.cpp ../../mainwindow.h \
 		../../../../5.15.2/mingw81_64/include/QtGui/qtouchdevice.h \
 		../../../../5.15.2/mingw81_64/include/QtWidgets/qtabwidget.h \
 		../../../../5.15.2/mingw81_64/include/QtGui/qicon.h \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/QPlainTextEdit \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/qplaintextedit.h \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/qtextedit.h \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/qabstractscrollarea.h \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/qframe.h \
+		../../../../5.15.2/mingw81_64/include/QtGui/qtextdocument.h \
+		../../../../5.15.2/mingw81_64/include/QtGui/qtextoption.h \
+		../../../../5.15.2/mingw81_64/include/QtGui/qtextcursor.h \
+		../../../../5.15.2/mingw81_64/include/QtGui/qtextformat.h \
+		../../../../5.15.2/mingw81_64/include/QtGui/qpen.h \
+		../../../../5.15.2/mingw81_64/include/QtGui/qabstracttextdocumentlayout.h \
+		../../../../5.15.2/mingw81_64/include/QtGui/qtextlayout.h \
+		../../../../5.15.2/mingw81_64/include/QtGui/qglyphrun.h \
+		../../../../5.15.2/mingw81_64/include/QtGui/qrawfont.h \
+		../../../../5.15.2/mingw81_64/include/QtGui/qfontdatabase.h \
 		../../../../5.15.2/mingw81_64/include/QtWidgets/QApplication \
 		../../../../5.15.2/mingw81_64/include/QtWidgets/qapplication.h \
 		../../../../5.15.2/mingw81_64/include/QtCore/qcoreapplication.h \
@@ -500,6 +531,21 @@ debug/mainwindow.o: ../../mainwindow.cpp ../../mainwindow.h \
 		../../../../5.15.2/mingw81_64/include/QtGui/qtouchdevice.h \
 		../../../../5.15.2/mingw81_64/include/QtWidgets/qtabwidget.h \
 		../../../../5.15.2/mingw81_64/include/QtGui/qicon.h \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/QPlainTextEdit \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/qplaintextedit.h \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/qtextedit.h \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/qabstractscrollarea.h \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/qframe.h \
+		../../../../5.15.2/mingw81_64/include/QtGui/qtextdocument.h \
+		../../../../5.15.2/mingw81_64/include/QtGui/qtextoption.h \
+		../../../../5.15.2/mingw81_64/include/QtGui/qtextcursor.h \
+		../../../../5.15.2/mingw81_64/include/QtGui/qtextformat.h \
+		../../../../5.15.2/mingw81_64/include/QtGui/qpen.h \
+		../../../../5.15.2/mingw81_64/include/QtGui/qabstracttextdocumentlayout.h \
+		../../../../5.15.2/mingw81_64/include/QtGui/qtextlayout.h \
+		../../../../5.15.2/mingw81_64/include/QtGui/qglyphrun.h \
+		../../../../5.15.2/mingw81_64/include/QtGui/qrawfont.h \
+		../../../../5.15.2/mingw81_64/include/QtGui/qfontdatabase.h \
 		ui_mainwindow.h \
 		../../../../5.15.2/mingw81_64/include/QtCore/QVariant \
 		../../../../5.15.2/mingw81_64/include/QtWidgets/QAction \
@@ -516,23 +562,10 @@ debug/mainwindow.o: ../../mainwindow.cpp ../../mainwindow.h \
 		../../../../5.15.2/mingw81_64/include/QtWidgets/qmenu.h \
 		../../../../5.15.2/mingw81_64/include/QtWidgets/QMenuBar \
 		../../../../5.15.2/mingw81_64/include/QtWidgets/qmenubar.h \
-		../../../../5.15.2/mingw81_64/include/QtWidgets/QPlainTextEdit \
-		../../../../5.15.2/mingw81_64/include/QtWidgets/qplaintextedit.h \
-		../../../../5.15.2/mingw81_64/include/QtWidgets/qtextedit.h \
-		../../../../5.15.2/mingw81_64/include/QtWidgets/qabstractscrollarea.h \
-		../../../../5.15.2/mingw81_64/include/QtWidgets/qframe.h \
-		../../../../5.15.2/mingw81_64/include/QtGui/qtextdocument.h \
-		../../../../5.15.2/mingw81_64/include/QtGui/qtextoption.h \
-		../../../../5.15.2/mingw81_64/include/QtGui/qtextcursor.h \
-		../../../../5.15.2/mingw81_64/include/QtGui/qtextformat.h \
-		../../../../5.15.2/mingw81_64/include/QtGui/qpen.h \
-		../../../../5.15.2/mingw81_64/include/QtGui/qabstracttextdocumentlayout.h \
-		../../../../5.15.2/mingw81_64/include/QtGui/qtextlayout.h \
-		../../../../5.15.2/mingw81_64/include/QtGui/qglyphrun.h \
-		../../../../5.15.2/mingw81_64/include/QtGui/qrawfont.h \
-		../../../../5.15.2/mingw81_64/include/QtGui/qfontdatabase.h \
 		../../../../5.15.2/mingw81_64/include/QtWidgets/QStatusBar \
 		../../../../5.15.2/mingw81_64/include/QtWidgets/qstatusbar.h \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/QToolBar \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/qtoolbar.h \
 		../../../../5.15.2/mingw81_64/include/QtWidgets/QVBoxLayout \
 		../../../../5.15.2/mingw81_64/include/QtWidgets/qboxlayout.h \
 		../../../../5.15.2/mingw81_64/include/QtWidgets/qlayout.h \
@@ -547,7 +580,31 @@ debug/mainwindow.o: ../../mainwindow.cpp ../../mainwindow.h \
 		../../../../5.15.2/mingw81_64/include/QtCore/QFile \
 		../../../../5.15.2/mingw81_64/include/QtCore/QTextStream \
 		../../../../5.15.2/mingw81_64/include/QtWidgets/QMessageBox \
-		../../../../5.15.2/mingw81_64/include/QtWidgets/qmessagebox.h
+		../../../../5.15.2/mingw81_64/include/QtWidgets/qmessagebox.h \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/QFontDialog \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/qfontdialog.h \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/QColorDialog \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/qcolordialog.h \
+		../../../../5.15.2/mingw81_64/include/QtGui/QPainter \
+		../../../../5.15.2/mingw81_64/include/QtGui/qpainter.h \
+		../../../../5.15.2/mingw81_64/include/QtGui/QTextBlock \
+		../../../../5.15.2/mingw81_64/include/QtGui/qtextobject.h \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/QDialog \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/QLabel \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/qlabel.h \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/QLineEdit \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/qlineedit.h \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/QPushButton \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/qpushbutton.h \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/qabstractbutton.h \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/QHBoxLayout \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/QCheckBox \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/qcheckbox.h \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/QRadioButton \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/qradiobutton.h \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/QButtonGroup \
+		../../../../5.15.2/mingw81_64/include/QtWidgets/qbuttongroup.h \
+		../../../../5.15.2/mingw81_64/include/QtGui/QTextCursor
 	$(CXX) -c $(CXXFLAGS) $(INCPATH) -o debug\mainwindow.o ..\..\mainwindow.cpp
 
 debug/qrc_icons.o: debug/qrc_icons.cpp 
